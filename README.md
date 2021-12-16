@@ -37,7 +37,7 @@ yarn add svelte-aria-dialog
 To open a dialog, bind the `open` prop to a boolean value.
 
 #### Basic 2-Button Dialog
-```tsx
+```html
 <script>
     import { Dialog } from "svelte-aria-dialog";
 
@@ -61,7 +61,7 @@ To open a dialog, bind the `open` prop to a boolean value.
 ```
 
 #### Non-closable Dialog
-```tsx
+```html
 <script>
     import { Dialog } from "svelte-aria-dialog";
 
@@ -76,7 +76,7 @@ To open a dialog, bind the `open` prop to a boolean value.
 ```
 
 #### Custom DOM Target (Portal)
-```tsx
+```html
 <script>
     import { Dialog } from "svelte-aria-dialog";
 
@@ -91,7 +91,7 @@ To open a dialog, bind the `open` prop to a boolean value.
 ```
 
 #### Dialog Events - `on:open` and `on:close`
-```tsx
+```html
 <script>
     import { Dialog } from "svelte-aria-dialog";
 
