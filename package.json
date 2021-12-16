@@ -1,0 +1,54 @@
+{
+  "name": "svelte-aria-dialog",
+  "version": "1.0.0",
+  "description": "A tiny svelte component that provides a mostly unstyled, WAI-ARIA accessible modal dialog with a few simple options.",
+  "homepage": "https://github.com/tropix126/svelte-aria-dialog",
+  "author": {
+    "name": "tropix126",
+    "url": "https://github.com/tropix126/"
+  },
+  "keywords": [
+    "dialog",
+    "modal",
+    "alert",
+    "accessible",
+    "aria",
+    "wai-aria",
+    "svelte",
+    "svelte3",
+    "sveltejs",
+    "svelte-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tropix126/svelte-aria-dialog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tropix126/svelte-aria-dialog/issues"
+  },
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "package": "svelte-kit package"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.10",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "svelte2tsx": "^0.4.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "focus-trap": "^6.7.1"
+  }
+}
